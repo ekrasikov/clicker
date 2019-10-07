@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="has-text-centered">
     <p class="title">{{ Level }}</p>
     <p class="subtitle">level</p>
   </div>
