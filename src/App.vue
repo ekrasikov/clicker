@@ -4,26 +4,19 @@
       <div class="tile is-ancestor">
         <div class="tile is-vertical is-parent">
           <div class="tile is-parent">
-            <div class="tile is-child">
+            <div class="tile is-child box">
+              <LevelNumber/>
+            </div>
+            <div class="tile is-child is-6 box">
+              <LevelProgress/>
+            </div>
+            <div class="tile is-child has-text-centered box">
               <Message/>
             </div>
           </div>
           <div class="tile is-parent">
-            <div class="tile is-child box">
-              <LevelNumber/>
-            </div>
-            <div class="tile is-child is-8 box">
-              <LevelProgress/>
-            </div>
-            <div class="tile is-child box">
-              <p></p>
-            </div>
-          </div>
-          <div class="tile is-parent">
-            <div class="tile is-child">
-              <div class="buttons">
-                <b-button type="is-primary" @click="manualClick()">Click me!</b-button>
-              </div>
+            <div class="tile is-child has-text-centered">
+              <b-button type="is-primary is-large" @click="manualClick()">Click me!</b-button>
             </div>
           </div>
         </div>
