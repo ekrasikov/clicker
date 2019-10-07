@@ -12,7 +12,7 @@
             <div class="tile is-child box">
               <LevelNumber/>
             </div>
-            <div class="tile is-child is-6 box">
+            <div class="tile is-child is-8 box">
               <LevelProgress/>
             </div>
             <div class="tile is-child box">
