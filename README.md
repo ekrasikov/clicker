@@ -1,2 +1,2 @@
 # clicker
-Simple clicker game to feed event to analytics pipeline
+Simple clicker game to feed events to analytics pipeline
