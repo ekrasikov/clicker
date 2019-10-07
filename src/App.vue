@@ -4,7 +4,7 @@
       <div class="tile is-ancestor">
         <div class="tile is-vertical is-parent">
           <div class="tile is-parent">
-            <div class="tile is-child box">
+            <div class="tile is-child">
               <Message/>
             </div>
           </div>
@@ -16,11 +16,11 @@
               <LevelProgress/>
             </div>
             <div class="tile is-child box">
-              <!---->
+              <p></p>
             </div>
           </div>
           <div class="tile is-parent">
-            <div class="tile is-child box">
+            <div class="tile is-child">
               <div class="buttons">
                 <b-button type="is-primary" @click="manualClick()">Click me!</b-button>
               </div>
