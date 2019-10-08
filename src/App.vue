@@ -54,6 +54,11 @@ export default {
 <style lang="scss">
 @import "~bulma/sass/utilities/_all";
 $gap: 128px;
+
+html {
+  touch-action: manipulation;
+}
+
 @import "~bulma";
 @import "~buefy/src/scss/buefy";
 </style>
