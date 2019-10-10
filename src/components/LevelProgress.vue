@@ -14,7 +14,7 @@ export default {
   data () {
     return {
       previousValue: 75,
-      currentValue: 75,
+      currentValue: 15,
       newLevelCoefficient: 1.5
     }
   },
@@ -29,7 +29,7 @@ export default {
       // otherwise start new level
       else {
         // emit event to start new level
-        EventBus.$emit('level-up');
+        EventBus.$emit('level-done', {});
         this.currentValue = Math.floor(this.previousValue * this.newLevelCoefficient);
         this.previousValue = this.currentValue;
       }

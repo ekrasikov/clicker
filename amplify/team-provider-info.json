@@ -1,0 +1,19 @@
+{
+    "env": {
+        "awscloudformation": {
+            "AuthRoleName": "clicker-env-20191008102457-authRole",
+            "UnauthRoleArn": "arn:aws:iam::026927173535:role/clicker-env-20191008102457-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::026927173535:role/clicker-env-20191008102457-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "clicker-env-20191008102457-deployment",
+            "UnauthRoleName": "clicker-env-20191008102457-unauthRole",
+            "StackName": "clicker-env-20191008102457",
+            "StackId": "arn:aws:cloudformation:eu-central-1:026927173535:stack/clicker-env-20191008102457/1cfeff60-e9a5-11e9-86ff-0a176ee37dc4"
+        },
+        "categories": {
+            "auth": {
+                "clicker34eef63934eef639": {}
+            }
+        }
+    }
+}

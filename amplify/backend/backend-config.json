@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"clicker34eef63934eef639": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}
