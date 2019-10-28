@@ -20,7 +20,8 @@ yarn-error.log*
 *.sln
 *.sw?
 
-#amplify
+amplify
+amplify/*
 amplify/\#current-cloud-backend
 amplify/.config/local-*
 amplify/mock-data
