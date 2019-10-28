@@ -50,6 +50,7 @@ export default {
         event_type: "level-up",
         event_id: uuid.v1(),
         platform: this.platform,
+        user_id: this.userID,
         data: {
           level_number: payload.levelNum
         }

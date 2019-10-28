@@ -13,8 +13,8 @@ export default {
   },
   data () {
     return {
-      previousValue: 75,
-      currentValue: 15,
+      previousValue: 10,
+      currentValue: 7,
       newLevelCoefficient: 1.5
     }
   },
